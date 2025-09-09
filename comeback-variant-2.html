@@ -107,9 +107,9 @@
         color: #ffffff !important;
         font-size: 18px;
         font-weight: 700;
+        width: 200px;
         text-decoration: none;
-        padding: 20px 40px;
-        border-radius: 60px;
+        padding: 16px 32px;
         box-shadow: 0 12px 32px rgba(233, 30, 99, 0.25);
         text-align: center;
         border: none;
@@ -128,10 +128,11 @@
         color: #e91e63 !important;
         font-size: 16px;
         font-weight: 600;
+        width: 200px;
+        text-align: center;
         text-decoration: none;
         padding: 16px 32px;
         border: 2px solid #e91e63;
-        border-radius: 8px;
         letter-spacing: 0.01em;
         transition: all 0.2s ease;
       }
@@ -291,7 +292,7 @@
           font-size: 18px !important;
           padding: 16px 32px !important;
           display: block !important;
-          width: 80% !important;
+
           margin: 0 auto !important;
         }
 
@@ -325,7 +326,6 @@
         }
         .btn-primary,
         .btn-secondary {
-          width: 80% !important;
           font-size: 14px !important;
           padding: 12px 20px !important;
         }
@@ -552,7 +552,13 @@
                           border="0"
                           style="margin-bottom: 24px"
                         >
-                          <tr>
+                          <tr
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 12px;
+                            "
+                          >
                             <td style="padding-right: 12px">
                               <a
                                 href="https://www.lilyswomenshealth.com/c/wm/introduction"
