@@ -155,6 +155,11 @@
         border-radius: 999px;
         letter-spacing: 0.02em;
         box-shadow: 0 4px 24px rgba(233, 30, 99, 0.18);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .cta:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 16px 40px rgba(233, 30, 99, 0.35);
       }
 
       .features {
@@ -472,7 +477,7 @@
                         style="
                           width: 24px;
                           height: 24px;
-                          fill: currentColor;
+                          fill: #e91e63;
                           vertical-align: middle;
                         "
                       >
@@ -492,17 +497,30 @@
                       "
                     >
                       <svg
-                        viewBox="0 0 448 512"
                         style="
                           width: 24px;
                           height: 24px;
-                          fill: currentColor;
+                          fill: none;
+                          stroke: currentColor;
+                          stroke-width: 2;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
                           vertical-align: middle;
                         "
+                        viewBox="0 0 24 24"
                       >
+                        <rect
+                          x="2"
+                          y="2"
+                          width="20"
+                          height="20"
+                          rx="5"
+                          ry="5"
+                        ></rect>
                         <path
-                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8z"
-                        />
+                          d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                        ></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                       </svg>
                     </a>
                   </div>
