@@ -147,27 +147,31 @@
       /* Step Cards */
       .step-card {
         background: #ffffff;
-        border-radius: 16px;
-        padding: 24px 20px;
-        text-align: left;
-        box-shadow: 0 4px 12px rgba(233, 30, 99, 0.06);
-        border: 2px solid rgba(233, 30, 99, 0.05);
+        border-radius: 24px;
+        padding: 32px 24px;
+        text-align: center;
+        box-shadow: 0 24px 64px rgba(233, 30, 99, 0.12);
+        border: 1px solid rgba(233, 30, 99, 0.08);
         height: 100%;
         min-height: 140px;
+        position: relative;
       }
       .step-number {
-        display: inline-block;
-        width: 36px;
-        height: 36px;
-        border-radius: 10px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 999px;
         background: linear-gradient(135deg, #e91e63, #c2185b);
         color: #ffffff;
         font-weight: 800;
-        font-size: 16px;
-        text-align: center;
-        line-height: 36px;
-        margin-bottom: 10px;
-        box-shadow: 0 6px 16px rgba(233, 30, 99, 0.2);
+        font-size: 14px;
+        box-shadow: 0 12px 24px rgba(233, 30, 99, 0.25);
+        border: 2px solid #ffffff;
       }
       .step-title {
         font-size: 18px;
@@ -458,6 +462,25 @@
                           "
                         >
                           <div class="step-card">
+                            <div
+                              style="
+                                width: 40px;
+                                height: 40px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 12px;
+                              "
+                            >
+                              <svg
+                                viewBox="0 0 512 512"
+                                style="width: 32px; height: 32px; fill: #e91e63"
+                              >
+                                <path
+                                  d="M288 32H80C53.5 32 32 53.5 32 80V432c0 26.5 21.5 48 48 48H432c26.5 0 48-21.5 48-48V224H320c-17.7 0-32-14.3-32-32V32zM320 32V160H480L320 32zM128 288h256c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+                                />
+                              </svg>
+                            </div>
                             <span class="step-number">1</span>
                             <div class="step-title">Quick Questionnaire</div>
                             <p class="step-text">
@@ -475,6 +498,25 @@
                           "
                         >
                           <div class="step-card">
+                            <div
+                              style="
+                                width: 40px;
+                                height: 40px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 12px;
+                              "
+                            >
+                              <svg
+                                viewBox="0 0 576 512"
+                                style="width: 32px; height: 32px; fill: #e91e63"
+                              >
+                                <path
+                                  d="M160 0C124.7 0 96 28.7 96 64V448c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V160L416 0H160zM384 192V64L544 224H416c-17.7 0-32-14.3-32-32zM128 96c0-17.7 14.3-32 32-32h160V224c0 35.3 28.7 64 64 64H544V448c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V96z"
+                                />
+                              </svg>
+                            </div>
                             <span class="step-number">2</span>
                             <div class="step-title">Choose Your Product</div>
                             <p class="step-text">
@@ -503,6 +545,25 @@
                           "
                         >
                           <div class="step-card">
+                            <div
+                              style="
+                                width: 40px;
+                                height: 40px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 12px;
+                              "
+                            >
+                              <svg
+                                viewBox="0 0 640 512"
+                                style="width: 32px; height: 32px; fill: #e91e63"
+                              >
+                                <path
+                                  d="M192 128a64 64 0 1 0 -128 0A64 64 0 1 0 192 128zm384 0a64 64 0 1 0 -128 0A64 64 0 1 0 576 128zM64 224H224c35.3 0 64 28.7 64 64v96H0V288c0-35.3 28.7-64 64-64zM416 288c0-35.3 28.7-64 64-64H640c35.3 0 64 28.7 64 64v96H416V288z"
+                                />
+                              </svg>
+                            </div>
                             <span class="step-number">3</span>
                             <div class="step-title">Start Consultation</div>
                             <p class="step-text">
@@ -530,6 +591,25 @@
                               border: 2px solid #e91e63;
                             "
                           >
+                            <div
+                              style="
+                                width: 40px;
+                                height: 40px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 12px;
+                              "
+                            >
+                              <svg
+                                viewBox="0 0 512 512"
+                                style="width: 32px; height: 32px; fill: #fff"
+                              >
+                                <path
+                                  d="M496.1 362.7l-104-24.1c-11.3-2.6-23 1.1-30.9 9.2l-43.5 44c-57-30.2-103.4-76.5-133.6-133.6l44-43.5c8.1-7.9 11.8-19.6 9.2-30.9l-24.1-104C207.5 68.5 196.2 56 181.9 56H96C78.3 56 64 70.3 64 88c0 197.4 160.6 358 358 358c17.7 0 32-14.3 32-32v-85.9c0-14.3-12.5-25.6-27.9-23.4z"
+                                />
+                              </svg>
+                            </div>
                             <span
                               class="step-number"
                               style="
